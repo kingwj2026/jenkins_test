@@ -1,0 +1,14 @@
+1.前端往后台传输参数时，参数格式：
+
+2.flask框架读取前端参数的不同方式 http中参数可以存放在url param和header和form和json;
+    # 获取 url 参数内容,
+    x = request.args.get("x")
+
+    # 获取 form 表单内容
+    y = request.form.get("y")
+
+    # 获取 http 头部内容
+    z = request.headers.get("z")
+
+3.提取某个表的字段定义类型
+    res = ProductLine.principal_team.nullable;
